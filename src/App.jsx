@@ -7,12 +7,14 @@ import ArticleSection from "./components/articles";
 
 function App() {
   return (
-    <>
+    <div className="bg-[#F9F8F6]">
       <Header />
-      <HeroSection />
-      <ArticleSection />
+      <div className="md:flex md:flex-col md:gap-20 md:pt-[60px] md:pb-[60px] md:pl-[120px] md:pr-[120px]">
+        <HeroSection />
+        <ArticleSection />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
