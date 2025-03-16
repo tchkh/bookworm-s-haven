@@ -6,12 +6,12 @@ function Header() {
       <div>
         <img
           className="md:hidden"
-          src="src/assets/svg/logo-mobile.svg"
+          src="../public/svg/logo-mobile.svg"
           alt="hh-mobile-logo"
         />
         <img
           className="max-md:hidden"
-          src="src/assets/svg/logo-desktop.svg"
+          src="../public/svg/logo-desktop.svg"
           alt="hh-desktop-logo"
         />
       </div>
