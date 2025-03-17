@@ -1,3 +1,5 @@
+import heroimg from "../assets/images/hero-img.jpg";
+
 function HeroSection() {
   return (
     <>
@@ -15,7 +17,7 @@ function HeroSection() {
         <div>
           <img
             className="w-[343px] h-[470px] rounded-2xl object-cover opacity-85"
-            src="../public/images/hero-img.jpg"
+            src={heroimg}
             alt="Man with a black and white cat perched on his shoulder, standing in a snow-covered forest with yellow autumn trees in the background."
           />
         </div>
@@ -55,7 +57,7 @@ function HeroSection() {
         <div>
           <img
             className="w-[386px] h-[529px] rounded-2xl object-cover opacity-85"
-            src="../public/images/hero-img.jpg"
+            src={heroimg}
             alt="Man with a black and white cat perched on his shoulder, standing in a snow-covered forest with yellow autumn trees in the background."
           />
         </div>
